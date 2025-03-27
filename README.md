@@ -56,3 +56,22 @@ You can deploy this website to any static hosting service such as:
 ## License
 
 This project is open source and available under the MIT License. 
+
+## Preview
+
+You can preview your site using the GitHub Pages URL before setting up the custom domain. The URL will be:
+
+```
+https://fregas.github.io/fortworthzen_2025/
+```
+
+This URL will be available as soon as GitHub Pages finishes deploying your site (usually takes a few minutes after enabling GitHub Pages in the settings).
+
+To check if it's ready:
+1. Go to your repository settings
+2. Scroll down to the "GitHub Pages" section
+3. You should see a message saying "Your site is published at https://fregas.github.io/fortworthzen_2025/"
+
+You can share this URL with others to preview the site. Once you're ready to set up the custom domain (fortworthzen.com), we can do that later.
+
+Would you like me to help you verify if the site is accessible at that URL? 

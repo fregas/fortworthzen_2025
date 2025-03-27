@@ -265,4 +265,89 @@ footer {
     margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid var(--color-secondary);
+}
+
+.meditation-steps {
+    margin-top: 2rem;
+}
+
+.meditation-steps h4 {
+    color: var(--color-accent);
+    margin: 2rem 0 1rem;
+    font-size: 1.4rem;
+}
+
+.meditation-steps p {
+    margin-bottom: 1rem;
+}
+
+.meditation-steps ul,
+.meditation-steps ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.meditation-steps li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.meditation-steps ol {
+    list-style-type: decimal;
+}
+
+.meditation-steps ul {
+    list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+    .meditation-steps h4 {
+        font-size: 1.2rem;
+    }
+}
+
+.zazen-intro {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.zazen-text {
+    flex: 1;
+}
+
+.zazen-image {
+    flex: 0 0 300px;
+}
+
+.zazen-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .zazen-intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zazen-image {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .zazen-pic {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .zazen-image {
+        max-width: 250px;
+    }
 } 
