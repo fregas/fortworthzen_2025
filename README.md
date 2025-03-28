@@ -45,6 +45,12 @@ The website is built with:
 
 No build process is required - simply serve these files from any web server.
 
+To run the site locally, you can use Python's built-in HTTP server:
+```bash
+python3 -m http.server 8000
+```
+Then open your browser and navigate to `http://localhost:8000`
+
 ## Deployment
 
 You can deploy this website to any static hosting service such as:
